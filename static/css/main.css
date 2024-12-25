@@ -1,0 +1,140 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0 0 30px 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: #007bff;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: darkcyan;
+    margin-bottom: 0;
+}
+
+h3 {
+    color: #666;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+
+/* Main Content */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Search Form */
+form {
+    margin-bottom: 2rem;
+}
+
+form input[type="text"] {
+    width: 80%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 0.5rem;
+    margin-bottom: 20px;
+}
+
+button, .visualize-button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.visualize-button {
+    text-decoration: none;
+
+}
+
+/* Results Section */
+.results {
+    margin-top: 2rem;
+}
+
+.results .result-item {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    background: #f9f9f9;
+    transition: box-shadow 0.3s ease;
+}
+
+.results .result-item:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.results .result-item h2 {
+    margin: 0 0 0.5rem;
+    font-size: 1.5rem;
+}
+
+.results .result-item p {
+    margin: 0.5rem 0 0;
+}
+
+li {
+    background-color: beige;
+    border: 1px dashed #bbb;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.score {
+    font-style: italic;
+    font-size: 20px;
+    color: brown;
+}
+
+.back-button {
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    background-color: crimson;
+    color: white;
+
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem 0;
+    background: #007bff;
+    color: #fff;
+    border-top: 1px solid #ccc;
+}
+
+footer p {
+    margin: 0;
+}
